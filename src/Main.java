@@ -32,8 +32,8 @@ public class Main {
         getShapeInfo(new Sphere(-1000));        //should throw Exception
         System.out.println(" ");
 
-        getShapeInfo(new Cube(5));                //should work
-        getShapeInfo(new Cube(10));               //should work
-        getShapeInfo(new Cube(0));                //should throw Exception
+        getShapeInfo(new Cube(5));                 //should work
+        getShapeInfo(new Cube(10));                //should work
+        getShapeInfo(new Cube(0));                 //should throw Exception
     }
 }
