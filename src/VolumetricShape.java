@@ -1,0 +1,3 @@
+interface VolumetricShape {
+    double getVolume();
+}
